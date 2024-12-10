@@ -20,7 +20,7 @@ The Pokémon Battle Simulator is an interactive, strategic tool designed to brin
 
 ### Data/Operation Design
 **Data Source**:
-- Pokémon data is sourced from Pokémon Database, which was web-scraped using Python.
+- Pokémon data is sourced from https://pokemondb.net/pokedex/all, which I web-scraped using Python.
 - Stats include HP, Attack, Defense, Speed, Sp. Attack, and Sp. Defense.
 **Data Preparation**:
 - The scraped data underwent cleaning and transformation for use in simulations.
