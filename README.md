@@ -1,9 +1,9 @@
-# Pokemon Battle Simulator
+# Pokémon Battle Simulator
 
 ## Reproducibility and Code
 My web application brings the intense excitement of a Pokémon battle to life. It offers a fun, visually engaging, and data-driven experience, combining strategic gameplay with interactive visuals. Dive into the world of Pokémon as you simulate battles, analyze stats, and enjoy a dynamic platform that merges entertainment with insightful data analysis.
 
-[View the Dashboard on Tableau Public](https://public.tableau.com/app/profile/drew.crowe/viz/Midterm_17298818593900/PokemonOverview?publish=yes) 
+[View Pokémon Battle Simulator](https://drews-final-project.streamlit.app/) 
 
 ## Readme
 
