@@ -12,27 +12,28 @@ The Pokémon Battle Simulator is an interactive, strategic tool designed to brin
 
 ### Problem to Solve
 **Traditionally, Pokémon battle strategies require manual stat comparisons and theoretical planning, which can be time-consuming and cumbersome. The Pokémon Battle Simulator addresses these challenges by**:
-Automating the battle process based on Pokémon stats.
-Introducing speed-based move order and special attacks for strategic depth.
-Allowing users to visualize and analyze Pokémon stats dynamically during battles.
-Offering an interactive experience that bridges the gap between data analysis and gameplay.
-Without such a tool, enthusiasts must rely on static data sources and repetitive calculations, hindering strategic experimentation. The simulator simplifies this process and enhances understanding through real-time interaction and outcomes.
+- Automating the battle process based on Pokémon stats.
+- Introducing speed-based move order and special attacks for strategic depth.
+- Allowing users to visualize and analyze Pokémon stats dynamically during battles.
+- Offering an interactive experience that bridges the gap between data analysis and gameplay.
+- Without such a tool, enthusiasts must rely on static data sources and repetitive calculations, hindering strategic experimentation. The simulator simplifies this process and enhances understanding through real-time interaction and outcomes.
 
 ### Data/Operation Design
 **Data Source**:
-Pokémon data is sourced from Pokémon Database, which was web-scraped using Python.
-Stats include HP, Attack, Defense, Speed, Sp. Attack, and Sp. Defense.
+- Pokémon data is sourced from Pokémon Database, which was web-scraped using Python.
+- Stats include HP, Attack, Defense, Speed, Sp. Attack, and Sp. Defense.
 **Data Preparation**:
-The scraped data underwent cleaning and transformation for use in simulations.
-Calculated fields include damage values, special attack effects, and turn-based move order logic.
-Simulator Features:
+- The scraped data underwent cleaning and transformation for use in simulations.
+- Calculated fields include damage values, special attack effects, and turn-based move order logic.
+- Simulator Features:
 **Speed-Based Move Order**:
-The Pokémon with the higher speed attacks first.
+- The Pokémon with the higher speed attacks first.
 **Trun-Based Mechaics**:
-Pokémon alternate moves, with dynamic health updates displayed.
-The simulator dynamically displays the winner and updates a session-based win tracker.
+- Pokémon alternate moves, with dynamic health updates displayed.
+- The simulator dynamically displays the winner and updates a session-based win tracker.
 **Interactive Health Bars**:
-Real-time health bars visualize the battle's progression.
+- Real-time health bars visualize the battle's progression.
+  
 **Custom Pokémon Selection**:
 
 ### Future Work
